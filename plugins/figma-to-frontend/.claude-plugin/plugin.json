@@ -1,6 +1,0 @@
-{
-  "name": "figma-to-frontend",
-  "version": "1.0.0",
-  "description": "Figma link → working frontend with every state. Reads the design through the local Figma MCP Bridge plugin (no API limits), reuses existing project components, and verifies the result against the design.",
-  "author": { "name": "qTech" }
-}
