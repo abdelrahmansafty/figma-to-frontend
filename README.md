@@ -1,4 +1,4 @@
-# Figma → Frontend (Claude Code Skill)
+# Figma Without Limit (Claude Code Skill)
 
 ابعت لينك فيجما لـ Claude Code وقوله **"اعمل الفرونت"**، وهو:
 1. يقرا الديزاين عن طريق بلجن على جهازك ([Figma MCP Bridge](https://github.com/gethopp/figma-mcp-bridge))، فمفيش حد لعدد الطلبات، وبيشتغل حتى لو معاك View بس.
@@ -10,9 +10,9 @@
 
 ### 1) حط الـ Skill (مرة واحدة)
 ```bash
-mkdir -p ~/.claude/skills/figma-to-frontend && curl -fsSL https://raw.githubusercontent.com/abdelrahmansafty/figma-to-frontend/main/SKILL.md -o ~/.claude/skills/figma-to-frontend/SKILL.md
+mkdir -p ~/.claude/skills/figma-without-limit && curl -fsSL https://raw.githubusercontent.com/abdelrahmansafty/figma-to-frontend/main/SKILL.md -o ~/.claude/skills/figma-without-limit/SKILL.md
 ```
-أو نزّل [SKILL.md](SKILL.md) وحطه في `~/.claude/skills/figma-to-frontend/SKILL.md`.
+أو نزّل [SKILL.md](SKILL.md) وحطه في `~/.claude/skills/figma-without-limit/SKILL.md`.
 
 ### 2) أول مرة تبعت فيها لينك فيجما
 الـ Skill هتلاحظ إن البلجن مش متسطب وتسألك. لو وافقت، هتعمل لوحدها:

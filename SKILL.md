@@ -1,9 +1,9 @@
 ---
-name: figma-to-frontend
+name: figma-without-limit
 description: Turn a Figma link into working frontend code with every state, even with VIEW-only access and no Figma API limits. First walks the user through running the local Figma MCP Bridge plugin, then reads the design through it (structure, exact values, tokens, icons, images, every state), reuses components that already exist in the codebase instead of rebuilding them, builds the page, and compares the result against the design screen by screen until it matches. Use whenever the user shares a figma.com link and wants it built ("اعمل الفرونت", "ابني الصفحة دي", "اعمل الصفحة دي بحالاتها", "implement this Figma"), or wants its assets/icons/images/tokens pulled ("هات الأسيتس", "طلّع الأيقونات"), says they only have view access, or Figma is rate-limiting — in any language.
 ---
 
-# Figma → frontend (bridge first, reuse first, verified against the design)
+# Figma Without Limit — Figma → frontend (bridge first, reuse first, verified against the design)
 
 Talk to the user in their language (usually Egyptian Arabic), short and simple. Code, identifiers and commits stay English.
 
