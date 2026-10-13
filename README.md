@@ -10,7 +10,7 @@
 
 ### 1) حط الـ Skill (مرة واحدة)
 ```bash
-mkdir -p ~/.claude/skills/figma-without-limit && curl -fsSL https://raw.githubusercontent.com/abdelrahmansafty/figma-to-frontend/main/SKILL.md -o ~/.claude/skills/figma-without-limit/SKILL.md
+mkdir -p ~/.claude/skills/figma-without-limit && curl -fsSL https://raw.githubusercontent.com/abdelrahmansafty/figma-without-limit/main/SKILL.md -o ~/.claude/skills/figma-without-limit/SKILL.md
 ```
 أو نزّل [SKILL.md](SKILL.md) وحطه في `~/.claude/skills/figma-without-limit/SKILL.md`.
 
