@@ -11,15 +11,17 @@
 ## التسطيب (مرة واحدة)
 
 ### 1) الـ Skill والسيرفر في Claude Code
-فك الضغط في مكان ثابت (مش Downloads)، وبعدين جوه Claude Code:
+جوه Claude Code:
 ```
-/plugin marketplace add /path/to/figma-to-frontend
+/plugin marketplace add abdelrahmansafty/figma-to-frontend
 /plugin install figma-to-frontend@qtech-figma
 ```
 وبعدين اعمل restart لـ Claude Code. السيرفر (`figma-bridge`) بيتسطب لوحده عن طريق `npx`.
+التحديثات: `/plugin marketplace update qtech-figma`.
 
 ### 2) البلجن في فيجما
-Figma Desktop → **Plugins → Development → Import plugin from manifest** → اختار `figma-plugin/manifest.json` من الفولدر ده.
+نزّل الريبو (Code → Download ZIP أو `git clone https://github.com/abdelrahmansafty/figma-to-frontend`) في مكان ثابت، وبعدين:
+Figma Desktop → **Plugins → Development → Import plugin from manifest** → اختار `figma-plugin/manifest.json`.
 
 ## الاستخدام
 1. افتح لينك الديزاين في Figma Desktop.
