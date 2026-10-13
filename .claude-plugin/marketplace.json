@@ -1,0 +1,16 @@
+{
+  "name": "qtech-figma",
+  "owner": {
+    "name": "qTech"
+  },
+  "metadata": {
+    "description": "qTech tools for turning Figma designs into frontend code."
+  },
+  "plugins": [
+    {
+      "name": "figma-to-frontend",
+      "source": "./plugins/figma-to-frontend",
+      "description": "Figma link → working frontend with every state, via the local Figma MCP Bridge (no API limits, works with view access)."
+    }
+  ]
+}
